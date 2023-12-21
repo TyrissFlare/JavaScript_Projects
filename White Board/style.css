@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#paintArea {
+  position: relative;
+  border: 8px solid  gainsboro;
+  height: 75vh;
+  width: 100%;
+}
+.options {
+  height: 15vh;
+  background-color: rgb(67, 65, 65);
+  padding: 30px;
+}
+.tools-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.tools-row h5 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: goldenrod;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.tools-row button {
+  padding: 12px 0px;
+  border-radius: 25px;
+  border: none;
+  background-color: goldenrod;
+  font-size: 18px;
+  color: white;
+}
+
+input[type="range"] {
+  height: 40px;
+}
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 70px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 8px;
+  border: 3px solid #000000;
+}
+input[type="color"]::moz-color-swatch {
+  border-radius: 8px;
+  border: 3px solid #000000;
+}
