@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Align buttons to center */
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: border-color 0.3s; /* Add transition effect for smoother color change */
+}
+
+input[type="text"]:focus {
+    border-color: brown; /* Change border color to brown when clicked */
+    outline: none; 
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(175, 42, 42, 0.813);
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px; /* Add margin for button spacing */
+}
+
+button:hover {
+    background-color: rgba(119, 84, 84, 0.765);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: gainsboro;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 5px;
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    max-width: 200px; 
+    text-align: center; 
+}
+
+li:hover {
+    background-color: rgba(175, 42, 42, 0.1);
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    vertical-align: middle; 
+}
+
+.checkbox:checked {
+    background-color: brown;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
